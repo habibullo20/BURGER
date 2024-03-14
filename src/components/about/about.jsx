@@ -1,5 +1,5 @@
 import React from 'react'
-import Buger from "../../assets/burger.png"
+import Buger from "../../assets/images.png"
 import "./about.css"
 export const About = () => {
     return (

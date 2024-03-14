@@ -1,11 +1,18 @@
+
 import { About } from "./components/about/about"
+import Header from "./components/header/header"
+import Hero from "./components/hero/hero"
 
 function App() {
   
 
   return (
     <>
-         <About/>
+      <Header/>
+      <Hero/>
+      <main>
+        <About/>
+      </main>
     </>
   )
 }

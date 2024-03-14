@@ -1,0 +1,38 @@
+h2{
+    color: black;
+}
+span{
+    color: red;
+}
+.item{
+    list-style-type: none;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: -22px;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+button{
+    width: 155px;
+height: 46px;
+top: 30px;
+left: 1135px;
+border-radius: 5px ;  
+color: #fff;
+background: #DC780B;
+border: none;
+font-size: 15px;
+}
