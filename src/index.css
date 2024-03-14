@@ -10,14 +10,15 @@ body{
   font-family: Roboto ,sans-serif;
 } 
 
-ul{
-  text-decoration: none;
-}
-li{
-  list-style-type: none;
-}
+
 .container{
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
 }
+a{
+  text-decoration: none;
+  margin-left: 30px;
+  color: #000;
+}
+
