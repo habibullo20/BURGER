@@ -2,6 +2,12 @@ import React from 'react'
 
 export const About = () => {
   return (
-   <h1>About us</h1>
+   <section className="about">
+    <div className="container">
+        <div className="about-inner">
+            
+        </div>
+    </div>
+   </section>
   )
 }
