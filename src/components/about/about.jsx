@@ -10,10 +10,13 @@ export const About = () => {
                         <img className='about-img' src={Buger} alt="img " width={444} height={400} />
                     </a>
                     <div className="about-items">
-                        <p className='about-p'>Haqqimizda </p>
+                        <p className='about-p'>Haqimizda </p>
                         <h2 className='about-h2'>Odamlar hozirda fast foodlarni ko'p mistemol qilishyapti, Shuning uchun fast foodga ehtiyoj oshib bormoqda       </h2>
-                        <p className='about-p1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatum maiores recusandae, optio modi alias sed facilis consectetur quaerat sunt debitis. Distinctio totam, ipsum asperiores porro quos culpa ullam consequuntur?</p>
-                        <button className='about-btn'>Read More </button>
+                        <p className='about-p1'>
+Fast Food biznesini boshlash uchun ko'p narsa kerak. Sizga nafaqat odamlar bilan oziq-ovqat do'konlari, balki kerak
+uskunalar sizning marketing samolyotingizni samarali qiladi.</p>
+                        <button className='about-btn'>Read more
+                        </button>
                     </div>
                 </div>
             </div>
