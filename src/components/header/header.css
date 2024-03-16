@@ -24,7 +24,7 @@ span {
 
 }
 
-ul {
+.ul {
     display: flex;
     align-items: center;
 
@@ -147,5 +147,24 @@ button {
 
     h2 {
         font-size: 8px;
+    }
+}
+@media(max-width:367px) {
+    .item {
+        list-style-type: none;
+        font-size: 3px;
+    }
+
+    button {
+        padding: 3px 8px;
+        border-radius: 8px;
+        color: #fff;
+        background: #DC780B;
+        border: none;
+        font-size: 3px;
+    }
+
+    h2 {
+        font-size: 6px;
     }
 }

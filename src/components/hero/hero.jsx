@@ -22,7 +22,7 @@ Fast Food biznesini boshlash uchun ko'p narsa kerak. Sizga nafaqat odamlar bilan
                     </button>
 
                     
-                </div><img src={Picture} alt="" />
+                </div><img className="img" src={Picture} alt="img" />
             </div>
         </div>
     </div>
