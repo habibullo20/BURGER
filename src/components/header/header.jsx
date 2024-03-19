@@ -10,7 +10,7 @@ const Header = () => {
                         </h2>
                     </div>
                     <div className="header-ul">
-                        <ul>
+                        <ul className="ul">
                             <li className="item">
                                 <a href="">Bosh Sahifa</a>
                             </li>

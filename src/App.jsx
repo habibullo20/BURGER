@@ -12,10 +12,17 @@ function App() {
     <>
       <Header/>
       <Hero/>
+<<<<<<< HEAD
       <Features/>
       <About/>
       <Menu/>
       <Delivery/>
+=======
+      {/* <main>
+      <Features/>
+        <About/>
+      </main> */}
+>>>>>>> c06a082aef7831106929aa713a1456e0fbe02542
     </>
   )
 }
