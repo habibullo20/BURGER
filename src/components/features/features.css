@@ -9,7 +9,9 @@ text-align: center;
 
 }
 
-
+.features{
+    margin-top: 150px;
+}
 
 .features-p{
     font-family: Philosopher;
@@ -52,6 +54,8 @@ margin-top: 20px;
 
 .features-list{
     display: flex;
+    margin-left: 180px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
