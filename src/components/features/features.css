@@ -9,7 +9,9 @@ text-align: center;
 
 }
 
-
+.features{
+    margin-top: 150px;
+}
 
 .features-p{
     font-family: Philosopher;
@@ -52,14 +54,8 @@ margin-top: 20px;
 
 .features-list{
     display: flex;
-<<<<<<< HEAD
     margin-left: 180px;
     align-items: center;
     justify-content: space-between;
 }
 
-=======
-    align-items: center;
-    justify-content: space-evenly;
-}
->>>>>>> c06a082aef7831106929aa713a1456e0fbe02542
