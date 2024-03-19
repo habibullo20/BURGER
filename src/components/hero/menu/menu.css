@@ -1,0 +1,55 @@
+.menu-h2{
+    font-family: Roboto;
+font-size: 30px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.2em;
+text-align: center;
+color: #DC780B;
+}
+.menu-h3{
+    font-family: Philosopher;
+font-size: 31.25px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+margin-top: 30px;
+color: #000;
+}
+.menu{
+    margin-top: 100px;
+}
+
+.menu-p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-h4{
+    font-family: Philosopher;
+font-size: 25px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #150C01;
+margin-top: 20px;
+}
+
+.menu-list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-p3{
+    font-family: Philosopher;
+font-size: 25px;
+font-weight: 700;
+line-height: 24px;
+text-align: right;
+margin-top: -25px;
+}
+
+.menu-item{
+    margin-top: 30px;
+}

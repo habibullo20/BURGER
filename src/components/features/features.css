@@ -54,6 +54,8 @@ margin-top: 20px;
 
 .features-list{
     display: flex;
+    margin-left: 180px;
+    align-items: center;
     justify-content: space-between;
 }
 
