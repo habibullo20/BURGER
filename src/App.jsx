@@ -11,10 +11,10 @@ function App() {
     <>
       <Header/>
       <Hero/>
-      {/* <main>
+     <main>
       <Features/>
-        <About/>
-      </main> */}
+         <About/>
+       </main> 
     </>
   )
 }

@@ -11,7 +11,7 @@ const Hero = () => {
                     </h2>
                     <p className="hero-p">
                     
-Fast Food biznesini boshlash uchun ko'p narsa kerak. Sizga nafaqat odamlar bilan oziq-ovqat do'konlari, balki maxsus jihozlar ham kerak,
+Fast Food biznesini boshlash uchun ko'p narsa kerak. Sizga nafaqat odamlar bilan oziq-ovqat do'konlari <br /> balki maxsus jihozlar ham kerak,
                     </p>
                     <button className="hero-btn">
                     Hozir buyurtma bering
@@ -22,7 +22,8 @@ Fast Food biznesini boshlash uchun ko'p narsa kerak. Sizga nafaqat odamlar bilan
                     </button>
 
                     
-                </div><img className="img" src={Picture} alt="img" />
+                </div>
+                <img className="img" src={Picture} alt="img" />
             </div>
         </div>
     </div>

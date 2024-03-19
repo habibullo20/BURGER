@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+git add
 .hero-h2{
     font-size: 50px;
     font-family: Philosopher , sans-serif;
@@ -7,8 +8,9 @@
     line-height: 80px;
     color: #150C01;
 }
+
 .hero-p{
-    width: 555px;
+
     font-family: Roboto , sans-serif;
     color: #150C01;
     line-height: 30px;
@@ -35,16 +37,22 @@ color: #DC780B;
 }
 
 .hero-inner{
-    width: 555px;
+  
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+.img{
+  width: 400px;
+  height: 350px;
 }
 
 @media(max-width:920px) {
   .img{
     width: 400px;
     height: 350px;
+  margin-right: 100px;
   }
   .hero-h2{
     font-size: 35px;
@@ -85,6 +93,7 @@ font-size: 13px;
     .img{
       width: 320px;
       height: 280px;
+      margin-right: 200px;
     }
     .hero-h2{
       font-size: 25px;
@@ -124,7 +133,8 @@ font-size: 13px;
   @media(max-width:600px) {
     .img{
       width: 260px;
-      height: 160   px;
+      height: 160px;
+      margin-right: 300px;
     }
     .hero-h2{
       font-size: 17px;
@@ -159,7 +169,51 @@ font-size: 13px;
       border: none;
       background: #fff;
       color: #DC780B;
-      font-size: 9px;
+      font-size: 9
+      px;
+      }
+      
+  } 
+   @media(max-width:560px) {
+    .img{
+      width: 150px;
+      height: 100px;
+      margin-right: 400px;
+    }
+    .hero-h2{
+      font-size: 12px;
+      font-family: Philosopher , sans-serif;
+      margin-top: 80px;
+      width: 550px;
+      line-height: 80px;
+      color: #150C01;
+      flex-wrap: wrap;
+  }
+  .hero-p{
+   font-size: 7px;
+      font-family: Roboto , sans-serif;
+      color: #150C01;
+      line-height: 30px;
+      flex-wrap: wrap;
+  }
+  .hero-btn{
+  padding: 6px 9px;
+  top: 532px;
+  left: 150px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  font-size: 6px;
+  }
+  .hero-btn2{
+      padding: 8px 16px;
+      top: 532px;
+      left: 338px;
+      border-radius: 5px;   
+      border: none;
+      background: #fff;
+      color: #DC780B;
+      font-size: 6px;
       }
       
   }
